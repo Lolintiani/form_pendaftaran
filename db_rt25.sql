@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS db_rt25;
+USE db_rt25;
+
+CREATE TABLE warga (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nik VARCHAR(20) UNIQUE,
+    nama VARCHAR(100),
+    password TEXT
+);
